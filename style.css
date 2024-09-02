@@ -1,0 +1,357 @@
+@import url("https://fonts.cdnfonts.com/css/blood-crow?styles=3401,3393");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Modak&family=Poppins:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  background-color: black;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.692);
+  padding: 20px 50px;
+  position: fixed;
+  width: 100%;
+}
+.navbar .judul {
+  color: rgb(167, 0, 0);
+  font-family: "Blood Crow", sans-serif;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+.navbar a:hover {
+  color: crimson;
+  padding-bottom: 2px;
+  border-bottom: 3px solid crimson;
+}
+header {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.534)),
+    url(img/kny2.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.box-hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  padding-top: 50px;
+  gap: 50px;
+  width: 100%;
+}
+
+.box-1 h1 {
+  color: white;
+  font-size: 3.5vw;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.box-1 p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.box-1 button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  background-color: red;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.box-1 button:hover {
+  background-color: rgb(156, 0, 31);
+  transition: 0.3s;
+}
+
+.box-2 img {
+  width: 100%;
+  border-radius: 50px;
+  border: crimson solid 2px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  /* min-height: 40vh; */
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding: 70px 0;
+}
+
+.box-3 {
+  background-color: black;
+  width: 50%;
+}
+.judul-about h1 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 2;
+}
+.box-3 p span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.judul-1 {
+  color: white;
+  margin: auto;
+  width: 80%;
+}
+
+.karakter {
+  color: white;
+}
+
+.karakter .judul {
+  width: 80%;
+  margin: auto;
+}
+
+.box-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.karakter .judul {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.gambar {
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+}
+.gambar img {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gambar img:hover {
+  transform: translateY(-15px);
+}
+.contact {
+  min-height: 50vh;
+  color: whitesmoke;
+  background-color: rgb(53, 52, 52);
+  margin-top: 50px;
+}
+
+.contact-me {
+  margin: auto;
+  width: 80%;
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.box-5 h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+#email {
+  width: 80%;
+}
+
+#pesan {
+  width: 80%;
+  height: 100px;
+  display: block;
+}
+
+.box-5 button {
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-size: 100%;
+  padding: 2px;
+  border-radius: 5px;
+  border: none;
+}
+
+.box-5 button:hover {
+  background-color: rgb(202, 196, 196);
+}
+
+.sosial-media {
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+}
+
+.sosial-media h3 {
+  font-size: 16px;
+}
+
+.sosial-media p {
+  font-size: 14px;
+}
+
+/* Hamburger Menu */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu-toggle input {
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  left: -5px;
+  top: -3px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 3px;
+  transition: all 0.5s;
+}
+/* Akhir Menu */
+
+/* Hamburger Menu Animation */
+.menu-toggle span:nth-child(2) {
+  transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+  transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+  background-color: white;
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+  background-color: white;
+  transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+  opacity: 0;
+  transform: scale(0);
+}
+
+/* Akhir Menu Animation */
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+  .box-1 button {
+    width: 140px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .navbar ul {
+    width: 50%;
+  }
+  .box-hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-1 {
+    order: 2;
+  }
+  .box-2 {
+    order: 1;
+  }
+  .box-1 h1 {
+    font-size: 4vw;
+  }
+  .box-1 {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 764px) {
+  .navbar ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index: -1;
+    background-color: rgba(161, 0, 32, 0.438);
+    width: 80%;
+    transform: translateX(100%);
+    transition: all 1s;
+  }
+
+  .navbar ul.slide {
+    transform: translateX(0);
+  }
+  .box-1 h1 {
+    font-size: 5vw;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+  .box-3 {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 674px) {
+  .contact-me {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #pesan {
+    width: 40vh;
+  }
+}
