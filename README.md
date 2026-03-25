@@ -1,37 +1,38 @@
 # ⚔️ Kimetsu No Yaiba (Demon Slayer) Web Project
 
-Selamat datang di repositori web **Kimetsu No Yaiba**! 🌊🔥
-Proyek ini adalah sebuah *fan page* (halaman web tribute) yang didedikasikan untuk seri anime dan manga populer, *Demon Slayer*. Halaman ini saya buat untuk menyalurkan minat pada anime sekaligus mengasah keterampilan desain *Front-End* dan *layouting* halaman web.
+Welcome to the Kimetsu No Yaiba web repository! 🌊🔥
+This project is a fan page (tribute web page) dedicated to the popular anime and manga series, Demon Slayer. I created this page to channel my interest in anime while honing my front-end design and web page layout skills.
 
-## ✨ Tentang Proyek Ini
-Web ini dirancang untuk menyajikan informasi visual seputar dunia *Kimetsu No Yaiba*. Fokus utamanya adalah menyusun antarmuka yang estetik, tematik, dan mudah diakses pengguna (responsif).
+## ✨ About This Project
+This website is designed to present visual information about the world of Kimetsu No Yaiba. The main focus is on creating an aesthetic, thematic, and user-friendly (responsive) interface.
 
-## 🛠️ Teknologi yang Digunakan
-- **HTML5:** Untuk menyusun kerangka informasi dan struktur konten (teks, gambar karakter, dll).
-- **CSS3:** Untuk memberikan gaya visual, menyesuaikan tema warna anime, dan mengatur tata letak responsif (Flexbox / Grid).
-- **JavaScript (Opsional):** Digunakan jika ada elemen interaktif seperti *slider* gambar karakter atau menu *hamburger* pada versi *mobile*.
+## 🛠️ Technologies Used
+- HTML5: To structure the information framework and content structure (text, character images, etc.).
+- CSS3: To provide visual styling, customize the anime's color theme, and manage responsive layouts (Flexbox/Grid).
 
-## 📂 Struktur Direktori (Contoh)
+- **JavaScript (Optional):** Used if there are interactive elements such as *character image slider* or *hamburger* menu on *mobile* version.
+
+## 📂 Directory Structure (Example)
 ```text
 Kimetsu-No-Yaiba/
-├── img/                # Direktori penyimpanan aset gambar karakter & background
-├── index.html          # Halaman beranda / utama
-├── style.css           # Pengaturan styling dan tema halaman
-└── README.md           # Dokumentasi proyek (file ini)
+├── img/ # Directory where character and background image assets are stored
+├── index.html # Home / Main page
+├── style.css # Page styling and theme settings
+└── README.md # Project documentation (this file)
 ```
-## 💻 Cara Menjalankan Secara Lokal
-Kamu bisa melihat halaman web ini langsung dari komputermu tanpa perlu instalasi rumit:
+## 💻 How to Run Locally
+You can view this webpage directly from your computer without any complicated installation:
 
-1. Clone repositori ini:
+1. **Clone this repository:**
 
 ```Bash
 git clone [https://github.com/PutraFirdausR/Kimetsu-No-Yaiba.git](https://github.com/PutraFirdausR/Kimetsu-No-Yaiba.git)
 ```
 
-2. Masuk ke folder proyek:
+2. **Enter the project folder:**
 
 ```Bash
 cd Kimetsu-No-Yaiba
 ```
-3. Buka di Browser:
-Cari file index.html di dalam folder tersebut dan klik dua kali untuk membukanya di browser favoritmu (Chrome, Edge, Safari, dll).
+3. **Open in Browser:**
+Find the index.html file in the folder and double-click it to open it in your favorite browser (Chrome, Edge, Safari, etc.).
